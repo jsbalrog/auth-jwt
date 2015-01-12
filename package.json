@@ -1,0 +1,11 @@
+{
+	"name": "auth-jwt",
+	"description": "auth-jwt -- jwt authentication example",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "~4.10.7",
+		"faker": "~2.1.2",
+		"cors": "~2.5.2",
+		"body-parser": "~1.10.1"
+	},
+}

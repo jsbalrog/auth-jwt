@@ -1,0 +1,23 @@
+<html ng-app="app">
+  <head>
+    <title></title>
+  </head>
+  <body ng-controller="MainCtrl as vm">
+    <h4>Get Random User</h4>
+
+    <div>
+      <form ng-submit="vm.login(vm.username, vm.password)">
+        <label>Username: <input type="text" ng-model="vm.username" /></label><br/>
+        <label>Password: <input type="text" ng-model="vm.password" /></label><br/>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <div>
+      <button ng-click="vm.getRandomUser()">Get User</button>
+      <pre ng-bind="vm.randomUser | json"></pre>
+    </div>
+
+    <script src="bower_components/angular/angular.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
