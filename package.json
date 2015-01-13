@@ -1,11 +1,13 @@
 {
-	"name": "auth-jwt",
-	"description": "auth-jwt -- jwt authentication example",
-	"version": "0.0.1",
-	"dependencies": {
-		"express": "~4.10.7",
-		"faker": "~2.1.2",
-		"cors": "~2.5.2",
-		"body-parser": "~1.10.1"
-	},
+  "name": "auth-jwt",
+  "description": "auth-jwt -- jwt authentication example",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "~1.10.1",
+    "cors": "~2.5.2",
+    "express": "~4.10.7",
+    "express-jwt": "^0.6.2",
+    "faker": "~2.1.2",
+    "jsonwebtoken": "^3.2.1"
+  }
 }
